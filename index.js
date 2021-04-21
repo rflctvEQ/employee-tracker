@@ -5,8 +5,10 @@ const table = require('console.table');
 const connection = mysql.createConnection({
     host: 'localhost',
     port: 3306,
-    user: 'root',
-    password: 'judochop',
+    //TODO: enter your MySQL user -- probably 'root' -- to use app
+    user: '',
+    // TODO: enter your MySQL pass to use app
+    password: '',
     database: 'employee_trackerDB'
 });
 
