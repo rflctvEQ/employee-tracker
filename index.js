@@ -6,9 +6,9 @@ const connection = mysql.createConnection({
     host: 'localhost',
     port: 3306,
     //TODO: enter your MySQL user -- probably 'root' -- to use app
-    user: 'root',
+    user: '',
     // TODO: enter your MySQL pass to use app
-    password: 'judochop',
+    password: '',
     database: 'employee_trackerDB'
 });
 
